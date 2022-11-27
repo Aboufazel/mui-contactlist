@@ -1,9 +1,12 @@
 import './App.css';
-import SearchAppBar from "./test";
+import Box from "@mui/material/Box";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-   <SearchAppBar/>
+      <>
+        <Layout/>
+      </>
   );
 }
 
